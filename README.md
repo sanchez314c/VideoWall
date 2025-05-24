@@ -1,5 +1,9 @@
 # VideoWall: Your Digital Display Domination Engine
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YourUsername/Github/main/.images/videowall-hero.png" alt="VideoWall Hero" width="600" />
+</p>
+
 ## Welcome to the Arena, Champion!
 Alright, you tech titan, you’ve just crashed into the motherlode of multimedia mayhem. Welcome to VideoWall, the gloriously overpowered, meticulously engineered, and occasionally feral collection of tools designed to transform your screens into a mind-blowing video wall extravaganza. Think of this as your personal war chest for when you need to broadcast, dazzle, or just plain dominate with video content across multiple displays—yesterday, and with a helluva lot of swagger. If there’s a screen begging to be synced, a video loop cryin’ for chaos, or a setup just askin’ to be pushed to its limits, there’s a script or package in here for that.
 
