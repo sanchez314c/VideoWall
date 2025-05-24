@@ -1,0 +1,13 @@
+name: videowall
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - PyQt5>=5.15.0
+    - requests>=2.25.0
+    - py2app>=0.22
+    - pytest>=6.0.0
+    - pytest-qt>=3.3.0

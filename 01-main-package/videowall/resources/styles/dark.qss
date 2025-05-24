@@ -1,0 +1,114 @@
+/* 
+   Dark theme stylesheet for VideoWall application
+   Based on QDarkStyle with customizations
+*/
+
+/* Global Styles */
+QWidget {
+    background-color: #19232D;
+    color: #F0F0F0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Main Window */
+QMainWindow {
+    background-color: #000000;
+}
+
+/* Dialog Windows */
+QDialog {
+    background-color: #19232D;
+    border: 1px solid #455364;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #455364;
+    color: #F0F0F0;
+    border: 1px solid #346792;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+QPushButton:hover {
+    background-color: #546C84;
+}
+
+QPushButton:pressed {
+    background-color: #1E2229;
+}
+
+/* Video Tiles */
+QVideoWidget {
+    background-color: #000000;
+    border: none;
+}
+
+/* Labels */
+QLabel {
+    color: #F0F0F0;
+}
+
+/* Status Labels */
+.status-label {
+    background-color: rgba(0, 0, 0, 180);
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.status-label-error {
+    background-color: rgba(150, 0, 0, 200);
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+/* Checkboxes */
+QCheckBox {
+    color: #F0F0F0;
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+QCheckBox::indicator:unchecked {
+    background-color: #455364;
+    border: 1px solid #346792;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #346792;
+    border: 1px solid #346792;
+}
+
+/* File Dialog */
+QFileDialog {
+    background-color: #19232D;
+    border: 1px solid #455364;
+}
+
+/* Custom Title Labels */
+.title-label {
+    font-size: 16pt;
+    font-weight: bold;
+    color: #F0F0F0;
+}
+
+/* Section Headers */
+.section-header {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #F0F0F0;
+}
+
+/* Tooltips */
+QToolTip {
+    background-color: #1A1A1A;
+    color: #F0F0F0;
+    border: 1px solid #2A2A2A;
+    padding: 2px;
+}

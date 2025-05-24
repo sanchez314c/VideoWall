@@ -1,0 +1,8 @@
+PyQt5>=5.15.0
+requests>=2.25.0
+pytest>=6.0.0
+pytest-qt>=3.3.0
+flake8>=3.8.0
+black>=20.8b1
+isort>=5.7.0
+py2app>=0.22; platform_system=="Darwin"
